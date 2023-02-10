@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "sixel-webcam-viewer"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1.0"
+crossterm = "0.26"
+image = "0.24"
+rscam = "0.5"
+sixel = "0.3"
+sixel-sys = "0.3"
+structopt = "0.3"
